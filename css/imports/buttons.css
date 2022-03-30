@@ -1,0 +1,15 @@
+/*button base style*/
+
+button {
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/*hero button*/
+.hero-button {
+  background-color: var(--color-light-green);
+  color: black;
+  margin-top: 2rem;
+}

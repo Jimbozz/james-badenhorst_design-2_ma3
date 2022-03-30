@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px) {
+  header {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .reverse {
+    flex-direction: row;
+  }
+
+  .hero-button {
+    margin-top: 1rem;
+  }
+
+  .hero-products {
+    padding: 0px 2rem;
+  }
+
+  .about {
+    padding: 7rem 3rem;
+  }
+
+  .range-item {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .cart {
+    display: none;
+  }
+}
