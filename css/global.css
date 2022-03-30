@@ -89,6 +89,27 @@ header h1 {
   margin: 0px;
 }
 
+.nav-links {
+  display: flex;
+  height: 2rem;
+  width: auto;
+  align-items: center;
+}
+
+.nav-links img {
+  height: 100%;
+  width: 100%;
+  margin-left: 2rem;
+}
+
+.nav-links a {
+  color: inherit;
+}
+
+.active {
+  text-decoration: underline;
+}
+
 /*footer*/
 
 footer {
