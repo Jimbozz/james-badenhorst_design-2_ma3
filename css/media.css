@@ -7,9 +7,16 @@
   .reverse {
     flex-direction: row;
   }
+  .hero {
+    display: block;
+  }
 
   .hero-button {
     margin-top: 1rem;
+  }
+
+  .hero-image {
+    display: none;
   }
 
   .hero-products {
@@ -20,8 +27,20 @@
     padding: 7rem 3rem;
   }
 
+  .about-content {
+    width: 75vw;
+  }
+
+  .range-container {
+    gap: 5rem;
+  }
+
   .range-item {
     gap: 2rem;
+  }
+
+  .range-content p {
+    max-width: 100%;
   }
 }
 

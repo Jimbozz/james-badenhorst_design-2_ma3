@@ -17,20 +17,20 @@ body {
 }
 
 body {
-  font-family: var(--text-paragraph);
+  font-family: var(--text-paragraph), sans-serif;
   font-size: calc(16px + 0.3vw);
   line-height: 1.6;
   margin: 0;
   padding: 0;
   color: var(--color-text);
-  background-color: var(--color-main);
 }
 
 h1,
 h2,
-h3 {
-  font-family: var(--text-heading), sans-serif, Verdana, Geneva, Tahoma,
-    sans-serif;
+h3,
+h4 {
+  font-family: var(--text-heading), serif;
+  margin-bottom: 3rem;
 }
 
 ul {

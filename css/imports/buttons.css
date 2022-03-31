@@ -11,5 +11,8 @@ button {
 .hero-button {
   background-color: var(--color-light-green);
   color: black;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  box-shadow: #00000029 6px 6px 10px;
+  font-size: 1rem;
+  font-family: var(--text-button);
 }

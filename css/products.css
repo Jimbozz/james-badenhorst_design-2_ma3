@@ -13,6 +13,7 @@ header {
   margin: 0 auto;
   text-align: center;
   color: white;
+  width: 80%;
 }
 
 .hero-container {
@@ -34,7 +35,7 @@ header {
   background-image: url(/assets/images/homeland-product-hero.jpg);
   background-size: cover;
   background-position: center;
-  filter: contrast(100%) brightness(70%);
+  filter: contrast(100%) brightness(41%);
 }
 
 .hero-products div {
@@ -79,6 +80,7 @@ header {
 
 .card-item {
   position: relative;
+  font-size: 1rem;
 }
 
 .card-image {
@@ -89,9 +91,10 @@ header {
 }
 
 .product-title {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
-  font-size: 1rem;
+  font-family: var(--text-paragraph);
+  margin-top: 0.5rem;
 }
 
 .favourite-icon {
@@ -102,4 +105,8 @@ header {
   width: 2rem;
   background: white;
   padding: 5px;
+}
+
+.card-item p {
+  margin: 0px;
 }
