@@ -63,7 +63,7 @@ main {
   font-size: 2rem;
   gap: 1.3rem;
   display: flex;
-  height: 6vh;
+  height: 40px;
   align-items: flex-start;
 }
 
